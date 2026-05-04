@@ -112,7 +112,6 @@
             text-align: center;
         }
 
-        /* GAME STYLES */
         #game-container {
             background: #f8f9fa;
             border-radius: 15px;
@@ -186,7 +185,6 @@
         </div>
 
         <div class="card">
-            <!-- Previous sections (About, Experience, Education, Skills) remain the same -->
             <div id="about" class="header-info">
                 <h1>Ibrahim Rashid</h1>
                 <p class="title">Accounting & Finance | Rutgers Business School</p>
@@ -194,7 +192,7 @@
                     Fair Lawn, NJ • (201) 851-9120 • Ibrahim.rashid2005@hotmail.com
                 </p>
                 <p class="bio" style="color: var(--text-light); max-width: 650px; margin: 0 auto;">
-                    Founder & CEO and Cost Control Analyst with a proven track record of reducing costs and improving operational efficiency. Currently pursuing a B.S. at Rutgers University.
+                    Founder & CEO and Cost Control Analyst with a proven track record of reducing costs and improving operational efficiency. Currently pursuing a B.S. at Rutgers University with a focus on delivering value through strategic financial analysis.
                 </p>
             </div>
 
@@ -208,6 +206,35 @@
                     <div class="item-sub">Rashid Group Construction | Paterson, NJ</div>
                     <ul>
                         <li>Lead a licensed and insured residential contracting firm serving North Jersey.</li>
+                        <li>Manage brand presence and outreach through photo and video portfolios and lead response.</li>
+                        <li>Produce written estimates and proposals, negotiating and securing contracts with new clientele.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span>Cost Control Analyst Intern</span>
+                        <span>May 2025 – Aug 2025</span>
+                    </div>
+                    <div class="item-sub">Rasquinha Group | Washington Township, NJ</div>
+                    <ul>
+                        <li>Reduced food costs by 4% for a $40 million company through targeted cost control strategies.</li>
+                        <li>Lowered labor costs by identifying staffing inefficiencies through variance analysis.</li>
+                        <li>Improved utility efficiency by 1% through consumption trend analysis.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="item">
+                    <div class="item-header">
+                        <span>Rutgers University - Rutgers Business School</span>
+                        <span>May 2027</span>
+                    </div>
+                    <div class="item-sub">Bachelor of Science in Accounting & Finance | GPA: 3.6/4.0</div>
+                    <ul>
+                        <li>Focusing on high-level financial analysis and accounting principles.</li>
                     </ul>
                 </div>
             </section>
@@ -218,11 +245,12 @@
                     <div class="skill-tag">Microsoft Excel</div>
                     <div class="skill-tag">SQL</div>
                     <div class="skill-tag">Cost Control</div>
+                    <div class="skill-tag">Team Management</div>
                     <div class="skill-tag">Financial Analysis</div>
+                    <div class="skill-tag">Bilingual</div>
                 </div>
             </section>
 
-            <!-- GAME SECTION STARTS HERE -->
             <section id="game">
                 <h2>Financial Literacy Challenge</h2>
                 <div id="game-container">
@@ -313,7 +341,6 @@
             const feedback = document.getElementById('feedback-msg');
             const buttons = document.querySelectorAll('.option-btn');
             
-            // Disable buttons to prevent double clicking
             buttons.forEach(b => b.disabled = true);
 
             if (index === correctIndex) {
